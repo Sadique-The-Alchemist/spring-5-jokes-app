@@ -1,6 +1,6 @@
-package org.awaiting.controller;
+package org.awaiting.jokes.controller;
 
-import org.awaiting.services.JokeService;
+import org.awaiting.jokes.services.JokeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +16,8 @@ public class JokeController {
     @RequestMapping({"/",""})
     public String showJoke(Model model){
         model.addAttribute("joke", jokeService.getJoke());
-        return "chucknorris";
+        model.addAttribute("test","Testing the tag");
+        return "chucknoris";
 
     }
 }

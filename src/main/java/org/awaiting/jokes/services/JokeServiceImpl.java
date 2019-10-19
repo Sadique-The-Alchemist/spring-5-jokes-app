@@ -1,4 +1,4 @@
-package org.awaiting.services;
+package org.awaiting.jokes.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.stereotype.Service;

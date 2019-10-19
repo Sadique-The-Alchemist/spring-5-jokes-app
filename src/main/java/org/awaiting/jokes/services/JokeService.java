@@ -1,4 +1,4 @@
-package org.awaiting.services;
+package org.awaiting.jokes.services;
 
 public interface JokeService {
      String getJoke();
